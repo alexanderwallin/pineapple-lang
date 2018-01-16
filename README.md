@@ -4,6 +4,17 @@
 
 `pineapple-lang` is an abstract, English-looking programming language for controlling real-time audio. Its purpose is to be suitable for both newcomers to the programmatic and/or musical world, as well as experienced musicians.
 
+## Installation
+* Requires [Sublime Text 3](https://www.sublimetext.com/3)
+* Run `python setup.py` to install
+* Add the following to your user key map:
+```
+[
+  { "keys": ["shift+enter"], "command": "pa_execute_line" },
+]
+```
+* Receive OSC commands on port 3001
+
 ## Examples
 
 ```
